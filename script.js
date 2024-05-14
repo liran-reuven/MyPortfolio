@@ -43,3 +43,9 @@ window.onscroll = () => {
     this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight
   );
 };
+
+document.getElementById("callButton").addEventListener("click", function () {
+  var phoneNumber = "+97254***480"; // Replace with your phone number
+  var telLink = "tel:" + phoneNumber;
+  window.location.href = telLink;
+});
