@@ -508,39 +508,6 @@ span {
   padding-top: 0.5rem;
 }
 
-.projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: auto;
-  padding-bottom: 5rem;
-}
-
-.projects .title {
-  position: relative;
-  display: inline-block;
-  font-size: 2.5rem;
-  margin: 0 0 1.5rem 2rem;
-}
-
-.projects .btn {
-  display: inline-block;
-  padding: 1rem 2.8rem;
-  background: var(--main-color);
-  border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
-  font-size: 1.6rem;
-  color: var(--second-bg-color);
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  transition: 0.5s ease;
-}
-
-.projects .btn:hover {
-  box-shadow: none;
-}
-
 .projects h2 {
   margin-bottom: 5rem;
 }
@@ -569,7 +536,7 @@ span {
 }
 
 .projects-box i {
-  font-size: 7rem;
+  font-size: 4rem;
   color: var(--main-color);
 }
 
@@ -580,6 +547,10 @@ span {
 .projects-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+
+.projects-img img {
+  width: 20%;
 }
 
 .skills {
